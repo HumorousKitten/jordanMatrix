@@ -1,0 +1,60 @@
+.jordanTable {
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
+}
+
+.nulls {
+	display: flex;
+	flex-direction: column;
+}
+
+.nulls div{
+	width: 50px;
+	height: 50px;
+	background: green;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.constants {
+	display: flex;
+	flex-direction: column;
+}
+
+.constants div{
+	width: 50px;
+	height: 50px;
+	background: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.matrix {
+	display: grid;
+	width: 100%;
+	grid-template-rows: repeat(4, 50px);
+	border: 1px solid red;
+}
+
+.gridElement {
+	border: 1px solid black;
+	width: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.selectGridElem {
+	background: green;
+}
+
+.constantsCol {
+	margin-left: 10px;
+}
+
+.constantsColor {
+	background: red;
+}
