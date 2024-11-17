@@ -1,0 +1,124 @@
+.errorMessage {
+	color: red;
+	font-size: 14px;
+}
+
+.errorBtn {
+	background: red !important;
+}
+
+.title {
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+
+.matrixForm {
+	border: 1px solid red;
+}
+
+.sizeMatrixForm {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.sizeInputs {
+	display: flex;
+	flex-direction: column;
+}
+
+.sizeInputs label{
+	display: flex;
+	flex-direction: column;
+}
+
+.sizeInputs label + label{
+	margin-top: 5px;
+}
+
+.sizeInputs label input{
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding: 5px;
+	width: 200px;
+	margin-top: 10px;
+}
+
+.createMatrixBtn {
+	background: #2D609B;
+	border-radius: 10px;
+	padding: 10px 40px;
+	color: #fff;
+	margin-top: 10px;
+}
+
+.matrixFormValues {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.matrixContainer {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid red;
+  background-color: #f9f9f9;
+	
+}
+
+.matrixGroup,
+.constantsGroup {
+  /* flex: 0.5; */
+  margin: 0 10px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.matrixGrid {
+  display: grid;
+  gap: 10px; 
+}
+
+.constantsGrid {
+	margin-top: 25px;
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 27px;
+}
+
+.matrixLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+}
+
+.matrixInput {
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.matrixInput:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 3px #007bff;
+}
+
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}

@@ -1,3 +1,13 @@
+.main {
+	display: flex;
+	gap: 30px;
+	margin-bottom: 20px;
+}
+
+.stepResult p {
+	font-size: 20px;
+}
+
 .jordanTable {
 	display: flex;
 	align-items: flex-start;
@@ -36,7 +46,6 @@
 	display: grid;
 	width: 100%;
 	grid-template-rows: repeat(4, 50px);
-	border: 1px solid red;
 }
 
 .gridElement {
@@ -51,10 +60,19 @@
 	background: green;
 }
 
+.redBackground {
+	background: red;
+}
+
 .constantsCol {
 	margin-left: 10px;
 }
 
 .constantsColor {
 	background: red;
+}
+
+.errorSelectedElemMessage {
+	color: red;
+	font-size: 20px;
 }
