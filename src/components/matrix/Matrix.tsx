@@ -36,8 +36,9 @@ const Matrix: FC<IMatrixProps> = ({
 	const [result, setResult] = React.useState<string[]>([])
 
 	React.useEffect(() => {
+		console.log(yCols)
 		const zeroCount = yCols.filter(item => item === '0 =').length
-
+		console.log(zeroCount)
 		// Условие 1: если есть только строки '0 =' (более одной)
 		if (zeroCount > 1) {
 			setResult(['решение еще не вычислено'])
@@ -71,7 +72,7 @@ const Matrix: FC<IMatrixProps> = ({
 
 		// На случай, если ни одно из условий не выполнено
 		setResult(['решение еще не вычислено'])
-	}, [])
+	}, [matrix])
 
 	React.useEffect(() => {
 		if (selectedElem.row === null) return
